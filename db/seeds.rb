@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 puts 'destroy all'
+Dose.destroy_all
 Ingredient.destroy_all
 Cocktail.destroy_all
 
@@ -34,15 +35,3 @@ Ingredient.create(name: "salt")
 Ingredient.create(name: "pepper")
 
 puts "seeded #{Ingredient.count} ingredients"
-
-
-puts "start seeding cocktails"
-
-Cocktail.create(name: "Basil Smash")
-Cocktail.create(name: "Mojito")
-Cocktail.create(name: "Long Island IceTea")
-Cocktail.create(name: "Bloody Mary")
-Cocktail.create(name: "Sex on the Beach")
-Cocktail.create(name: "Margherita")
-
-puts "seeded #{Cocktail.count} cocktails"
