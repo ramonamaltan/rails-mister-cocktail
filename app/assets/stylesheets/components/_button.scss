@@ -26,17 +26,15 @@
   }
   
   .btn-strong {
-    background-color: #34626c;
-    border: 1px solid #cfd3ce;
-    color: #cfd3ce;
+    background-color: #7f8d00;
+    color: white;
     padding: 12px 24px;
     border-radius: 30px;
-    font-weight: normal;
+    font-weight: bold;
     transition: opacity 0.3s ease;
   }
   
   .btn-strong:hover {
-    background-color: #cfd3ce;
-    color:#34626c;
-    border: 1px solid #34626c;
+    background-color: #cad315;
+    color:white;
   }
