@@ -1,7 +1,7 @@
 <div class="container m-5">
   <h1 class="m-5"><%= @cocktail.name %></h1>
   <div class="card-product m-5">
-    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <%#= cl_image_tag @cocktail.photo.key, crop: :fill %>
     <div class="card-product-infos">
       <h2>Ingredients for <%= @cocktail.name %></h2>
       <ul>
@@ -17,7 +17,7 @@
   </div>
   <div class="d-flex flex-column justify-content-center mb-5 mx-5">
     <div class="flex-shrink-1"><%= link_to 'Add Ingredients',  new_cocktail_dose_path(@cocktail), class: "btn btn-strong" %></div>
-    <div class="flex-shrink-1 mt-3"><%= link_to 'Back to all Cocktails', cocktails_path, class: "btn btn-strong" %></div>
+    <div class="flex-shrink-1 mt-3"><%= link_to 'Back to all Cocktails', root_path, class: "btn btn-strong" %></div>
     
   </div>
 </div>
