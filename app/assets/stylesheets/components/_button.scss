@@ -1,14 +1,42 @@
 .btn-ghost {
-    color: #4A4A4A;
-    border: 1px solid #4A4A4A;
+    color: white;
+    border: 1px solid white;
     padding: 8px 24px;
     border-radius: 50px;
-    font-weight: lighter;
-    opacity: 0.6;
+    font-weight: normal;
     transition: opacity 0.3s ease;
   }
   
   .btn-ghost:hover {
-    opacity: 1;
+    color: white;
+    opacity: .7;
+  }
+
+  .btn-white {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  .btn-white:hover {
+    color: rgb(173, 223, 216);
   }
   
+  .btn-strong {
+    background-color: #34626c;
+    border: 1px solid #cfd3ce;
+    color: #cfd3ce;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: normal;
+    transition: opacity 0.3s ease;
+  }
+  
+  .btn-strong:hover {
+    background-color: #cfd3ce;
+    color:#34626c;
+    border: 1px solid #34626c;
+  }
