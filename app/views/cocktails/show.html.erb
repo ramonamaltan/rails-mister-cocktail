@@ -1,7 +1,7 @@
 <div class="container m-5">
   <h1 class="m-5"><%= @cocktail.name %></h1>
   <div class="card-product m-5">
-    <%#= cl_image_tag @cocktail.photo.key, crop: :fill %>
+    <%= cl_image_tag @cocktail.photo.key, crop: :fill %>
     <div class="card-product-infos">
       <h2>Ingredients for <%= @cocktail.name %></h2>
       <ul>

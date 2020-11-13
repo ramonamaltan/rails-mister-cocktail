@@ -4,7 +4,7 @@
 
   <%= simple_form_for @cocktail, html: { class: "form-group m-5"} do |f| %>
     <%= f.input :name, input_html: {class: "form-control form-control-lg"} %>
-    <%#= f.input :photo, as: :file, input_html: {class: "form-control form-control-lg"} %>
+    <%= f.input :photo, as: :file, input_html: {class: "form-control form-control-lg"} %>
     <%= f.submit "Create Cocktail", class: 'btn btn-strong mt-3'%>
   <% end %>
 </div>
